@@ -1,19 +1,31 @@
 {
-  "name": "@backsty/platforms",
-  "version": "1.0.0",
-  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/backsty/JS-Advanced-Course.git#master"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/backsty/JS-Advanced-Course/issues"
-  },
-  "homepage": "https://github.com/backsty/JS-Advanced-Course/tree/master#readme"
+    "name": "@backsty/platforms",
+    "version": "1.0.0",
+    "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/backsty/JS-Advanced-Course.git#master"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/backsty/JS-Advanced-Course/issues"
+    },
+    "homepage": "https://github.com/backsty/JS-Advanced-Course/tree/master#readme",
+    "publishConfig": {
+        "registry":"https://npm.pkg.github.com/"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.25.6",
+        "@babel/core": "^7.25.2",
+        "@babel/preset-env": "^7.25.4",
+        "babel-loader": "^9.2.1",
+        "webpack": "^5.95.0",
+        "webpack-cli": "^5.1.4"
+    }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "@backsty/platforms",
+  "version": "1.0.0",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backsty/JS-Advanced-Course.git#master"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backsty/JS-Advanced-Course/issues"
+  },
+  "homepage": "https://github.com/backsty/JS-Advanced-Course/tree/master#readme"
+}

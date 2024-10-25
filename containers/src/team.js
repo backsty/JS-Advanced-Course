@@ -12,9 +12,7 @@ export default class Team {
 
     addAll(...characters) {
         characters.forEach(character => {
-            if (!this.member.has(character)) {
-                this.member.add(character);
-            }
+            this.add(character);
         });
     }
 

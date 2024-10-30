@@ -8,3 +8,14 @@ import GameSavingLoader from './src/gameSavingLoader.js';
         console.log(error);
     }
 })();
+
+
+
+
+// try {
+//     GameSavingLoader.load()
+//         .then(saving => console.log(saving))
+//         .catch(error => console.log(error));
+// } catch (error) {
+//     console.log(error);
+// }

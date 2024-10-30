@@ -8,3 +8,11 @@ export default class GameSavingLoader {
         return JSON.parse(value);
     }
 }
+
+
+
+// export default class GameSavingLoader {
+//     static async load() {
+//         return read().then(json).then(data => JSON.parse(data));
+//     }
+// }

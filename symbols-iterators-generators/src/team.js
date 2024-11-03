@@ -4,7 +4,7 @@ export default class Team {
     }
 
     add(character) {
-        this.members.push(character);
+        this.members.add(character);
     }
 
     ///////////////////////
